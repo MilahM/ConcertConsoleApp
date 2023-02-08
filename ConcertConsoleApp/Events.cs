@@ -8,9 +8,10 @@ namespace ConcertConsoleApp
 {
     public class Events
     {
-        public Events() 
-        {
-        }
-        public string ArtistName { get; set; }
+        public string type { get; set; }
+        public DateTime datetime_local { get; set; }
+        public Venue venue { get; set; }
+        public string url { get; set; }
+
     }
 }
